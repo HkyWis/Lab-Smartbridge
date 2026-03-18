@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Event Handling Demo</h1>
+        
+        <form id="demoForm">
+            <label for="nameInput">Name:</label>
+            <input type="text" id="nameInput" placeholder="Type your name">
+            
+            <label for="colorSelect">Favorite Color:</label>
+            <select id="colorSelect">
+                <option value="">Select</option>
+                <option value="Red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="Green">Green</option>
+            </select>
+            
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+
+        <button id="clickBtn">Click Me!</button>
+
+        <div id="output" class="output">Output will appear here.</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
