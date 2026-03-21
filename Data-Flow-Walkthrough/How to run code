@@ -1,0 +1,9 @@
+Note before run the code !!!
+
+Backend Folder:
+npm init -y
+npm install express mongoose cors
+node server.js
+
+Frontend Folder:
+npm start
